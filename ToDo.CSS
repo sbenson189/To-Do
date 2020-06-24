@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(21, 198, 211);
+    margin: 15% 35% 35% 35%;
+}
+
+h1 {
+    color: rgb(107, 93, 93);
+}
+
+li { /* todo */ 
+    color: whitesmoke;
+}
+
+#add-todo {
+    color: rgb(85, 74, 74);
+}
+
+input {
+    background-color: darkgray;
+}
+
+button {
+    background-color: rgb(85, 74, 74);
+    color: whitesmoke;
+}
+
+input:checked {
+    height: 18px;
+    width: 18px;
+  }
+
+.complete {
+    color: red;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+    color: black;
+  }
+
+  input[type=checkbox]:checked {
+      color: red;
+  }
